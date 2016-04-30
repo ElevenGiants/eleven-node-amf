@@ -108,6 +108,10 @@ AMFDeserializer.prototype.readU29 = function(){
     		break;
 		}
 	}
+	// if high bit (sign) is set, this is a negative number
+	if (n & (1 << 28)) {
+		n = n | (7 << 29);
+	}
 	return n;
 }
 
