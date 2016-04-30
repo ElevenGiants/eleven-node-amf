@@ -1,22 +1,18 @@
 {
-  "name": "amflib",
-  "version": "1.0.1",
-  "author": "Tim Whitlock (http://timwhitlock.info)",
-  "description": "AMF library for NodeJS",
+  "name": "eleven-node-amf",
+  "version": "1.0.0",
+  "description": "AMF library for the Eleven Giants game server",
+  "private": true,
   "scripts": {
     "test": "node test.js"
   },
   "main": "./node-amf/http-server",
   "repository": {
     "type": "git",
-    "url": "http://github.com/timwhitlock/node-amf.git"
+    "url": "https://github.com/ElevenGiants/eleven-node-amf.git"
   },
-  "keywords": [
-    "flash",
-    "AMF"
-  ],
   "license": "MIT",
   "engines": {
-    "node": ">=0.6"
+    "node": ">=0.10"
   }
 }
